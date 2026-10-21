@@ -1,0 +1,7 @@
+* text=auto
+*.js text eol=lf
+*.mjs text eol=lf
+*.jsx text eol=lf
+*.md text eol=lf
+*.ecproj text eol=lf
+*.sha256 text eol=lf

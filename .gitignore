@@ -1,0 +1,37 @@
+# Publish only the distributable, source, documentation, and reusable tests.
+# Research downloads, personal projects, archives, caches, and local probes stay local.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/build.mjs
+!/src/
+!/src/*.js
+!/dist/
+!/dist/GridBase.jsx
+!/dist/GridBase.jsx.sha256
+!/examples/
+!/examples/GridBase Demo.ecproj
+!/tests/
+!/tests/run.mjs
+!/tests/engine-tests.js
+!/tests/features-v12.js
+!/tests/results.txt
+!/tests/features-v12-results.txt
+!/tests/performance-v12.md
+!/tests/migration-v12-results.txt
+/src/*
+!/src/*.js
+/dist/*
+!/dist/GridBase.jsx
+!/dist/GridBase.jsx.sha256
+/examples/*
+!/examples/GridBase Demo.ecproj
+/tests/*
+!/tests/run.mjs
+!/tests/engine-tests.js
+!/tests/features-v12.js
+!/tests/results.txt
+!/tests/features-v12-results.txt
+!/tests/performance-v12.md
+!/tests/migration-v12-results.txt
